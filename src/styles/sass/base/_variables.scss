@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anybody&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@700&display=swap');
+
+$main-font: 'Anybody';
+$main-color: #0A111E;
+$secondary-color: #213557;
+$gray-color: gray;
+
+:root {
+    --main-font: #{$main-font};
+    --main-background-color: #{$main-color};
+    --secondary-background-color: #{$secondary-color};
+    --gray-color: #{$gray-color};
+}
