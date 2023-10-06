@@ -1,0 +1,9 @@
+@media (max-width:850px) {
+    .flexbox {
+        &-navbar {
+            &__logo {
+                justify-content: center;
+            }
+        }
+    }
+}

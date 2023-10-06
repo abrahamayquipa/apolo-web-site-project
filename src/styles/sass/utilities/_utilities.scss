@@ -1,0 +1,30 @@
+.font {
+    &--regular {
+        font-weight: 400;
+        color: var(--gray-color);
+
+        &--active {
+            color: white;
+        }
+    }
+
+    &--bold {
+        font-weight: 700;
+        color: white
+    }
+
+    &--extra-bold {
+        font-weight: 900;
+        color: white
+    }
+}
+
+.nowrap-text {
+    white-space: nowrap;
+}
+
+.margin {
+    &-navbar {
+        margin: 0.5em 0;
+    }
+}
