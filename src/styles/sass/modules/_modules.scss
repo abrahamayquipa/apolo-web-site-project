@@ -1,22 +1,22 @@
 @import '../base/variables';
 
 .navbar {
-  background-color: var(--main-background-color);
+  position: fixed;
+  top: 0;
   width: 100%;
+  background: rgba(255, 255, 255, 0.01);
   box-shadow: -67.96667px 67.96667px 67.96667px 0px rgba(255, 255, 255, 0.01) inset, 67.96667px -67.96667px 67.96667px 0px rgba(194, 194, 194, 0.01) inset, 6px 8px 200px -16px rgba(255, 255, 255, 0.25);
   backdrop-filter: blur(80.20066833496094px);
 
-  &__logo {
-    &__image {
-      height: 1.8em;
-    }
-
-    &__text {
-      font-size: 1.5rem;
-    }
+  &__logo-image {
+    height: 1.8em;
   }
 
-  &__item {
+  &__logo-text {
+    font-size: 1.5rem;
+  }
+
+  &__items {
     margin: 0 0.5em;
 
     &:hover{
@@ -24,4 +24,43 @@
       transition: 0.3s ease-out;
     }
   }
+}
+
+.article {
+  &__text {
+    font-size: 3.5rem;
+
+    &--gradient {
+      background: linear-gradient(90deg, #6A85B6 0%, #BAC8E0 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  &__image {
+    width: 100%;
+  }
+}
+
+.form {
+  margin: 1em 0;
+  background-color: transparent;
+  border: 1px solid white;
+
+  &__label {
+    padding: 1.5em 2.5em;
+    color: white;
+    border-radius: 4em;
+  }
+
+  &__button {
+    padding: 1.5em 4em;
+    color: white;
+    border-radius: 4em;
+  }
+}
+
+::placeholder{
+  color: white;
 }

@@ -1,8 +1,7 @@
 @use 'base/reset';
 @use 'base/variables';
-@use 'layout/flexbox';
-@use 'layout/grid';
-@use 'layout/responsive-flexbox';
-@use 'layout/responsive-grid';
+@use 'layout/layout';
+@use 'layout/responsive-layout';
 @use 'modules/modules';
-@use 'utilities/utilities'
+@use 'utilities/utilities';
+@use 'vendor/vendor'

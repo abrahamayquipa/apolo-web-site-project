@@ -1,13 +1,12 @@
 body {
 	align-items: center;
-	background: #E3E3E3;
 	display: flex;
-	height: 100vh;
 	justify-content: center;
 }
 
 @mixin white-gradient {
-	background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+	background: linear-gradient(89deg, #0D1728 24.53%, #0D1728 24.54%, rgba(13, 23, 40, 0.95) 37.91%, rgba(13, 23, 40, 0.90) 47.55%, rgba(13, 23, 40, 0.80) 55.44%, rgba(13, 23, 40, 0.00) 79.3%);
+
 }
 
 $animationSpeed: 40s;
@@ -18,7 +17,6 @@ $animationSpeed: 40s;
 }
 
 .slider {
-	background: white;
 	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
 	height: 100px;
 	margin: auto;

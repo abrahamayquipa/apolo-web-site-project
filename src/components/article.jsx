@@ -1,16 +1,28 @@
+import camera from '../assets/images/security-camera.webp'
+
 function Article() {
     return(
-        <article>
-            <section>
-                <span>Sistema de monitoreo para Cubiculos en universidades</span>
-                <span>Supervisa optimamente el correcto uso de tus espacios de estudio.</span>
-                <form action="">
-                    <input type="text" placeholder="Ingresa tu correo electrónico"/>
-                    <button>Enviar</button>
+        <article className="grid-layout margin--extremes">
+            <section className="article-layout__content">
+                <section className="flexbox-layout flexbox-vertical article__content margin--content">
+                    <span>
+                        <span className="article__text font--extra-bold">Sistema de </span>
+                        <span className="article__text article__text--gradient font--extra-bold">monitoreo</span>
+                    </span>
+                    <span className="article__text font--extra-bold">para espacios</span>
+                    <span>
+                        <span className="article__text font--extra-bold">en </span>
+                        <span className="article__text article__text--gradient font--extra-bold">universidades</span>
+                    </span>
+                </section>
+                <span className="article__content font--regular margin--content">Supervisa optimamente el correcto uso de tus espacios de estudio.</span>
+                <form action="" className="form-layout article__content margin--content">
+                    <input type="text" placeholder="Ingresa tu correo electrónico" className="form-layout__label form form__label"/>
+                    <button  className="form-layout__button form form__button">Enviar</button>
                 </form>
             </section>
-            <figure>
-                <img src="" alt="camera" />
+            <figure className="article-layout__image">
+                <img src={camera} alt="camera" className="article__image"/>
             </figure>
         </article>
     );

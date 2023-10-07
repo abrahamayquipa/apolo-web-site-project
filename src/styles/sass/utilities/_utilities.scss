@@ -2,10 +2,6 @@
     &--regular {
         font-weight: 400;
         color: var(--gray-color);
-
-        &--active {
-            color: white;
-        }
     }
 
     &--bold {
@@ -17,6 +13,10 @@
         font-weight: 900;
         color: white
     }
+
+    &--active {
+        color: white;
+    }
 }
 
 .nowrap-text {
@@ -24,7 +24,20 @@
 }
 
 .margin {
-    &-navbar {
+    &--navbar {
         margin: 0.5em 0;
     }
+
+    &--extremes {
+        margin-top: 12em;
+        margin-bottom: 12em;
+    }
+
+    &--content {
+        margin: 1em 0;
+    }
+}
+
+.flexbox-vertical {
+    flex-direction: column;
 }

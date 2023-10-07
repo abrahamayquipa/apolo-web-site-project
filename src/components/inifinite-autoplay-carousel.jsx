@@ -1,52 +1,35 @@
+import pucp from '../assets/images/pucp.webp';
+import ulima from '../assets/images/u-lima.webp';
+import upacifico from '../assets/images/u-pacifico.webp';
+import uni from '../assets/images/uni.webp';
+import unmsm from '../assets/images/unmsm.webp';
+import upc from '../assets/images/upc.webp';
+
 function InfiniteAutoplayCarousel() {
-    return(
-        <section>
-            <div class="slider">
-	<div class="slide-track">
-		<div class="slide">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
-		</div>
-		<div class="slide">
-			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
-		</div>
-	</div>
-</div>
-        </section>
-    );
+	return (
+		<section className="slider">
+			<div className="slide-track">
+				<div className="slide">
+					<img src={pucp} height="72" alt="" />
+				</div>
+				<div className="slide">
+					<img src={ulima} height="72" alt="" />
+				</div>
+				<div className="slide">
+					<img src={upacifico} height="72" alt="" />
+				</div>
+				<div className="slide">
+					<img src={uni} height="72" alt="" />
+				</div>
+				<div className="slide">
+					<img src={unmsm} height="72" alt="" />
+				</div>
+				<div className="slide">
+					<img src={upc} height="72" alt="" />
+				</div>
+			</div>
+		</section>
+	);
 }
+
+export default InfiniteAutoplayCarousel;
