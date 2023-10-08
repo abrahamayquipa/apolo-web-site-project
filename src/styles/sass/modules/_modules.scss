@@ -4,7 +4,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background: rgba(255, 255, 255, 0.01);
+  border-bottom: 1px solid #848484;
   box-shadow: -67.96667px 67.96667px 67.96667px 0px rgba(255, 255, 255, 0.01) inset, 67.96667px -67.96667px 67.96667px 0px rgba(194, 194, 194, 0.01) inset, 6px 8px 200px -16px rgba(255, 255, 255, 0.25);
   backdrop-filter: blur(80.20066833496094px);
 
@@ -63,4 +63,10 @@
 
 ::placeholder{
   color: white;
+}
+
+.carousel {
+  &__images{
+    height: 4.3em;
+  }
 }

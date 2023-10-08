@@ -13,6 +13,7 @@ root.render(
     <header>
       <Navbar/>
       <Article/>
+      <Carousel/>
     </header>
   </>
 );

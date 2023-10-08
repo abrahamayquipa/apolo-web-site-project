@@ -7,27 +7,16 @@ import upc from '../assets/images/upc.webp';
 
 function InfiniteAutoplayCarousel() {
 	return (
-		<section className="slider">
-			<div className="slide-track">
-				<div className="slide">
-					<img src={pucp} height="72" alt="" />
-				</div>
-				<div className="slide">
-					<img src={ulima} height="72" alt="" />
-				</div>
-				<div className="slide">
-					<img src={upacifico} height="72" alt="" />
-				</div>
-				<div className="slide">
-					<img src={uni} height="72" alt="" />
-				</div>
-				<div className="slide">
-					<img src={unmsm} height="72" alt="" />
-				</div>
-				<div className="slide">
-					<img src={upc} height="72" alt="" />
-				</div>
+		<section className="grid-layout">
+			<div className="flexbox-layout carousel-layout">
+				<img src={upacifico} alt="upacifico" className="carousel__images"/>
+				<img src={ulima} alt="ulima" className="carousel__images"/>
+				<img src={upc} alt="upc" className="carousel__images"/>
+				<img src={unmsm} alt="unmsm" className="carousel__images"/>
+				<img src={uni} alt="uni" className="carousel__images"/>
+				<img src={pucp} alt="pucp" className="carousel__images"/>
 			</div>
+			
 		</section>
 	);
 }

@@ -54,3 +54,8 @@
         grid-column: 5/6;
     }
 }
+
+.carousel-layout {
+    justify-content: space-between;
+    grid-column: 1/13;
+}
