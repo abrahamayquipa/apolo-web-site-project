@@ -9,7 +9,7 @@ function InfiniteAutoplayCarousel() {
 	return (
 		<section className="grid-layout">
 			<div className="flexbox-layout carousel-layout">
-				<img src={upacifico} alt="upacifico" className="carousel__images"/>
+				<img src={upacifico} alt="upacifico" className="carousel__images "/>
 				<img src={ulima} alt="ulima" className="carousel__images"/>
 				<img src={upc} alt="upc" className="carousel__images"/>
 				<img src={unmsm} alt="unmsm" className="carousel__images"/>

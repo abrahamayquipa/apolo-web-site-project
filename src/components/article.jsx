@@ -3,7 +3,7 @@ import camera from '../assets/images/security-camera.webp'
 function Article() {
     return(
         <article className="grid-layout margin--extremes">
-            <section className="article-layout__content">
+            <section className="article-layout__content" data-aos="fade-right">
                 <section className="flexbox-layout flexbox-vertical article__content margin--content">
                     <span>
                         <span className="article__text font--extra-bold">Sistema de </span>
@@ -21,11 +21,15 @@ function Article() {
                     <button  className="form-layout__button form form__button">Enviar</button>
                 </form>
             </section>
-            <figure className="article-layout__image">
+            <figure className="article-layout__image" data-aos="fade-left">
                 <img src={camera} alt="camera" className="article__image"/>
             </figure>
         </article>
     );
 }
+
+AOS.init({
+    duration: 2000,
+})
 
 export default Article;
