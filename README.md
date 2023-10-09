@@ -5,7 +5,7 @@
     <img alt="GitHub forks" src="https://img.shields.io/github/forks/abrahamayquipa/apolo-web-site-project">
     <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/abrahamayquipa/apolo-web-site-project">
     <img alt="GitHub issues" src="https://img.shields.io/github/issues/abrahamayquipa/apolo-web-site-project">
-    <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/apolo-web-site-project">
+    <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/abrahamayquipa/apolo-web-site-project">
     <img alt="Static Badge" src="https://img.shields.io/badge/license-MIT-yellow">
 </div>
 <p align="center">You want to see the proyect? then clone this repository</p>
