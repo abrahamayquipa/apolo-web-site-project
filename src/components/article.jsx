@@ -1,6 +1,16 @@
 import camera from '../assets/images/security-camera.webp'
 
 function Article() {
+    const handleConfettiClick = (e) => {
+        e.preventDefault();
+
+        confetti({
+            particleCount: 100,
+            spread: 100,
+            origin: { y: 0.6 }
+        });
+    };
+    
     return(
         <article className="grid-layout margin--extremes">
             <section className="article-layout__content" data-aos="fade-right">
@@ -18,7 +28,7 @@ function Article() {
                 <span className="article__content font--regular margin--content">Supervisa optimamente el correcto uso de tus espacios de estudio.</span>
                 <form action="" className="form-layout article__content margin--content">
                     <input type="text" placeholder="Ingresa tu correo electrónico" className="form-layout__label form form__label"/>
-                    <button  className="form-layout__button form form__button">Enviar</button>
+                    <button id="confettiButton" className="form-layout__button form form__button" onClick={handleConfettiClick}>Enviar</button>
                 </form>
             </section>
             <figure className="article-layout__image" data-aos="fade-left">

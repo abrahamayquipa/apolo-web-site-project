@@ -8,6 +8,17 @@
             grid-column: 4/10;
         }
     }
+
+    .margin {
+        &--extremes {
+            margin-top: 3em;
+            margin-bottom: 3em;
+        }
+    
+        &--content {
+            margin: 1em 0;
+        }
+    }
 }
 
 @media (max-width:1000px) {
@@ -49,6 +60,7 @@
         }
     
         &__button {
+            justify-content: center;
             grid-column: 1/13;
         }
     }

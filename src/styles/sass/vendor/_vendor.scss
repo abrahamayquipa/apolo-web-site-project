@@ -1,0 +1,42 @@
+.swiper {
+    width: 70%;
+    margin: 2em 0; 
+}
+
+.swiper-slide  {
+    margin: auto;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+@media (max-width:1500px) {
+    .swiper {
+        width: 65%;
+    }
+}
+
+@media (max-width:1350px) {
+    .swiper {
+        width: 60%; 
+    }
+}
+
+@media (max-width:1200px) {
+    .swiper {
+        width: 80%; 
+    }
+}
+
+@media (max-width:1000px) {
+    .swiper {
+        width: 90%; 
+    }
+}
+
+@media (max-width:800px) {
+    .swiper {
+        width: 80%; 
+    }
+}

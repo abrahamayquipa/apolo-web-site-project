@@ -4,6 +4,7 @@
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 10;
   border-bottom: 1px solid #848484;
   box-shadow: -67.96667px 67.96667px 67.96667px 0px rgba(255, 255, 255, 0.01) inset, 67.96667px -67.96667px 67.96667px 0px rgba(194, 194, 194, 0.01) inset, 6px 8px 200px -16px rgba(255, 255, 255, 0.25);
   backdrop-filter: blur(80.20066833496094px);
@@ -21,7 +22,7 @@
 
     &:hover{
       color: white;
-      transition: 0.3s ease-out;
+      transition: 0.3s ease-in-out;
     }
   }
 }
@@ -31,15 +32,30 @@
     font-size: 3.5rem;
 
     &--gradient {
+      position: relative;
       background: linear-gradient(90deg, #6A85B6 0%, #BAC8E0 100%);
+      background-size: 500% 500%;
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+      animation: background-animation 3s ease-in-out infinite;
     }
   }
 
   &__image {
     width: 100%;
+  }
+
+  @keyframes background-animation {
+    0% {
+      background-position: 0 50%;
+    }
+		50% {
+      background-position: 100% 50%;
+    }
+		100% {
+      background-position: 0 50%;
+    }
   }
 }
 
