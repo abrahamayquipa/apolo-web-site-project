@@ -24,13 +24,11 @@
 }
 
 .margin {
-    &--navbar {
-        margin: 0.5em 0;
-    }
-
     &--extremes {
         margin-top: 12em;
         margin-bottom: 3em;
+        margin-right: 16em;
+        margin-left: 16em;
     }
 
     &--content {
@@ -40,4 +38,22 @@
 
 .flexbox-vertical {
     flex-direction: column;
+}
+
+@media (max-width:1200px) {
+    .margin {
+        &--extremes {
+            margin-right: 8em;
+            margin-left: 8em;
+        }
+    }
+}
+
+@media (max-width:1000px) {
+    .margin {
+        &--extremes {
+            margin-right: 4em;
+            margin-left: 4em;
+        }
+    }
 }
