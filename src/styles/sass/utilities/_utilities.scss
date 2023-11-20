@@ -24,11 +24,12 @@
 }
 
 .margin {
-    &--extremes {
-        margin-top: 12em;
-        margin-bottom: 3em;
-        margin-right: 16em;
-        margin-left: 16em;
+    &--sides {
+        margin: 0.5em 16em;
+    }
+
+    &--main-article {
+        margin-top: 10em;
     }
 
     &--content {
@@ -42,18 +43,16 @@
 
 @media (max-width:1200px) {
     .margin {
-        &--extremes {
-            margin-right: 8em;
-            margin-left: 8em;
+        &--sides {
+            margin: 0.5em 8em;
         }
     }
 }
 
 @media (max-width:1000px) {
     .margin {
-        &--extremes {
-            margin-right: 4em;
-            margin-left: 4em;
+        &--sides {
+            margin: 0.5em 4em;
         }
     }
 }

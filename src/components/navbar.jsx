@@ -3,7 +3,7 @@ import logo from '../assets/images/logo.webp'
 function Navbar() {
     return(
         <nav className="navbar">
-                <div className="grid-layout">
+                <div className="grid-layout margin--sides">
                     <a href="#" className="flexbox-layout navbar-layout__logo navbar__logo margin--navbar">
                         <img src={logo} alt="logo" className="navbar__logo-image" />
                         <span className="navbar__logo-text font--bold">APOLO</span>

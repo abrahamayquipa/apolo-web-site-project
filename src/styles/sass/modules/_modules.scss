@@ -27,7 +27,7 @@
   }
 }
 
-.article {
+.main-article {
   &__text {
     font-size: 3.5rem;
 
@@ -79,10 +79,4 @@
 
 ::placeholder{
   color: white;
-}
-
-.carousel {
-  &__images{
-    height: 4.3em;
-  }
 }

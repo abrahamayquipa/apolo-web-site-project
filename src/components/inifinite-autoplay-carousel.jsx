@@ -48,13 +48,13 @@ function InfiniteAutoplayCarousel() {
 				<img src={upacifico} alt="upacifico" />
 			</SwiperSlide>
 			<SwiperSlide>
-				<img src={ulima} alt="ulima" />
-			</SwiperSlide>
-			<SwiperSlide>
 				<img src={upc} alt="upc" />
 			</SwiperSlide>
 			<SwiperSlide>
 				<img src={unmsm} alt="unmsm" />
+			</SwiperSlide>
+			<SwiperSlide>
+				<img src={ulima} alt="ulima" />
 			</SwiperSlide>
 			<SwiperSlide>
 				<img src={pucp} alt="pucp" />
@@ -63,13 +63,13 @@ function InfiniteAutoplayCarousel() {
 				<img src={upacifico} alt="upacifico" />
 			</SwiperSlide>
 			<SwiperSlide>
-				<img src={ulima} alt="ulima" />
-			</SwiperSlide>
-			<SwiperSlide>
 				<img src={upc} alt="upc" />
 			</SwiperSlide>
 			<SwiperSlide>
 				<img src={unmsm} alt="unmsm" />
+			</SwiperSlide>
+			<SwiperSlide>
+				<img src={ulima} alt="ulima" />
 			</SwiperSlide>
 			<SwiperSlide>
 				<img src={pucp} alt="pucp" />
