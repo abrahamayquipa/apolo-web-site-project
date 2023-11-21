@@ -5,11 +5,15 @@
 $main-font: 'Anybody';
 $main-color: #0A111E;
 $secondary-color: #213557;
-$gray-color: gray;
+$card-color: #1E2746;
+$dark-gray-color: #7F848D;
+$light-gray-color: #D4D6D9;
 
 :root {
     --main-font: #{$main-font};
     --main-background-color: #{$main-color};
     --secondary-background-color: #{$secondary-color};
-    --gray-color: #{$gray-color};
+    --card-color: #{$card-color};
+    --dark-gray-color: #{$dark-gray-color};
+    --light-gray-color: #{$light-gray-color};
 }

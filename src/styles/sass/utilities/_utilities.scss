@@ -1,15 +1,34 @@
+@import '/src/styles/sass/base/variables';
+
 .font {
-    &--regular {
-        font-weight: 400;
-        color: var(--gray-color);
+    &--regular-light-gray {
+        font-weight: 500;
+        color: var(--light-gray-color);
     }
 
-    &--bold {
+    &--regular-dark-gray {
+        font-weight: 500;
+        color: var(--dark-gray-color);
+    }
+
+    &--regular-big-bold {
+        font-size: 2rem;
+        font-weight: bold;
+        color: white;
+    }
+
+    &--regular-little-bold {
+        font-size: 1rem;
+        font-weight: bold;
+        color: white;
+    }
+
+    &--little-bold {
         font-weight: 700;
         color: white
     }
 
-    &--extra-bold {
+    &--big-bold {
         font-weight: 900;
         color: white
     }
@@ -29,7 +48,7 @@
     }
 
     &--main-article {
-        margin-top: 10em;
+        margin-top: 12em;
     }
 
     &--content {
@@ -41,6 +60,7 @@
     flex-direction: column;
 }
 
+/*
 @media (max-width:1200px) {
     .margin {
         &--sides {
@@ -55,4 +75,4 @@
             margin: 0.5em 4em;
         }
     }
-}
+}*/

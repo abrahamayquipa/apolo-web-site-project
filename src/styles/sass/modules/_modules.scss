@@ -22,7 +22,7 @@
 
     &:hover{
       color: white;
-      transition: 0.3s ease-in-out;
+      transition: 0.5s ease-in-out;
     }
   }
 }
@@ -79,4 +79,15 @@
 
 ::placeholder{
   color: white;
+}
+
+.card {
+  width: 17em;
+  padding: 1em;
+  background-color: var(--card-color);
+  border-radius: 1em;
+
+  &__title {
+    padding: 1em 0;
+  }
 }
