@@ -11,9 +11,9 @@ function Navbar() {
                 </a>
                 <ul className="flexbox-layout navbar-layout__items">
                     <li><a href="#" className="navbar__items font--active">Inicio</a> </li>
-                    <li><a href="#" className="navbar__items font--regular-dark-gray">Feature</a></li>
-                    <li><a href="#" className="navbar__items font--regular-dark-gray nowrap-text">Who to work</a></li>
-                    <li><a href="#" className="navbar__items font--regular-dark-gray">Pricing</a></li>
+                    <li><a href="#cards" className="navbar__items font--regular-dark-gray nowrap-text">¿Como funciona?</a></li>
+                    <li><a href="#stadistics" className="navbar__items font--regular-dark-gray">Metricas</a></li>
+                    <li><a href="#testimonials" className="navbar__items font--regular-dark-gray">Testimonios</a></li>
                 </ul>
                 <a href="#" className="flexbox-layout navbar-layout__button font--active">Cotiza ahora</a>
             </div>

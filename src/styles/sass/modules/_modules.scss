@@ -22,7 +22,7 @@
 
     &:hover{
       color: white;
-      transition: 0.5s ease-in-out;
+      transition: 0.3s ease-in-out;
     }
   }
 }
@@ -89,5 +89,19 @@
 
   &__title {
     padding: 1em 0;
+  }
+}
+
+.stadistics {
+  &__image {
+    height: 18em;
+  }
+}
+
+.testimonials {
+  background-color: var(--card-color);
+
+  &__image {
+    height: 16em;
   }
 }

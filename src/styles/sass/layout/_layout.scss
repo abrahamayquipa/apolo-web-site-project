@@ -52,9 +52,7 @@
     }
 }
 
-.section-layout {
-    height: 30em;
-
+.section-cards-layout {
     &__content {
         grid-column: 1/13;
         justify-self: center;
@@ -63,5 +61,46 @@
     &__cards{
         grid-column: 1/13;
         justify-content: space-between;
+    }
+}
+
+.section-stadistics-layout {
+    &__image {
+        grid-column: 1/7;
+        justify-self: center;
+    }
+
+    &__content {
+        grid-column: 7/13;
+        align-self: center;
+    }
+}
+
+.section-recommendations-layout {
+    &__header {
+        grid-column: 3/11;
+        justify-self: center;
+    }
+
+    &__image {
+        grid-column:1/5;
+        justify-self: center;
+    }
+
+    &__content {
+        grid-column: 5/12;
+        align-self: center;
+    }
+}
+
+.footer {
+    &__text {
+        grid-column: 1/13;
+        justify-self: center;
+    }
+
+    &__options {
+        grid-column: 1/13;
+        justify-self: center;
     }
 }

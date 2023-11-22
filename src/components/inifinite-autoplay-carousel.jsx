@@ -10,7 +10,7 @@ import 'swiper/css';
 
 function InfiniteAutoplayCarousel() {
 	return (
-		<Swiper 
+		<Swiper
 			slidesPerView={5} 
 			spaceBetween={100} 
 			loop={true}
