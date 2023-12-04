@@ -2,20 +2,37 @@ import logo from '../assets/images/logo.webp'
 
 function Navbar() {
     return(
-        <nav className="navbar">
-            <div className="margin--sides grid-layout">
-
-                <a href="#" className="flexbox-layout navbar-layout__logo">
-                    <img src={logo} alt="logo" className="navbar__logo-image" />
-                    <span className="font--big-bold navbar__logo-text">APOLO</span>
+        <nav className="c-navbar">
+            <div className="u-margin--sides l-grid">
+                <a href="#" className="l-navbar__logo">
+                    <img src={logo} alt="logo" className="c-navbar__logo-image"/>
+                    <span className="c-navbar__logo-text u-font--black">APOLO</span>
                 </a>
-                <ul className="flexbox-layout navbar-layout__items">
-                    <li><a href="#" className="navbar__items font--active">Inicio</a> </li>
-                    <li><a href="#cards" className="navbar__items font--regular-dark-gray nowrap-text">¿Como funciona?</a></li>
-                    <li><a href="#stadistics" className="navbar__items font--regular-dark-gray">Metricas</a></li>
-                    <li><a href="#testimonials" className="navbar__items font--regular-dark-gray">Testimonios</a></li>
+                <ul className="l-navbar__items l-flexbox">
+                    <li>
+                        <a href="#" className="c-navbar__items u-font-regular-white">
+                            Inicio
+                        </a> 
+                    </li>
+                    <li>
+                        <a href="#" className="c-navbar__items u-font-regular-gray">
+                            ¿Como funciona?
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" className="c-navbar__items u-font-regular-gray">
+                            Metricas
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" className="c-navbar__items u-font-regular-gray">
+                            Testimonios
+                        </a>
+                    </li>
                 </ul>
-                <a href="#" className="flexbox-layout navbar-layout__button font--active">Cotiza ahora</a>
+                <a href="#" className="l-navbar__button u-font-regular-white">
+                    Cotiza ahora
+                </a>
             </div>
         </nav>
     );

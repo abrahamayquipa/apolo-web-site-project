@@ -1,109 +1,51 @@
-/*
-@media (max-width:1500px) {
-    .form-layout {
-        &__label {
-            grid-column: 1/7;
-        }
-    
-        &__button {
-            grid-column: 7/11;
-        }
-    }
-}
-
-@media (max-width:1200px) {
-    .navbar-layout {
+@media (max-width:1700px) {
+    .l-navbar {
         &__items {
             grid-column: 4/10;
         }
     }
+}
 
-    .form-layout {
-        &__label {
-            grid-column: 1/6;
-        }
-    
-        &__button {
-            grid-column: 6/9;
+@media (max-width:1300px) {
+    .u-margin {
+        &--sides {
+            margin: 0em 10em;
         }
     }
 }
 
-@media (max-width:1000px) {
-    .navbar-layout {
-        &__items {
-            grid-column: 3/11;
-        }
-    }
-
-    .main-article-layout {
-        &__content {
-            grid-column: 1/13;
-        }
-    
-        &__image {
-            grid-column: 3/11;
-            align-self: center;
+@media (max-width:1100px) {
+    .u-margin {
+        &--sides {
+            margin: 0em 4em;
         }
     }
 }
 
-@media (max-width:850px) {
-    .grid-layout {
-        grid-gap: 1em;
-    }
-
-    .navbar-layout {
+@media (max-width:800px) {
+    .l-navbar {
         &__logo {
-            justify-content: center;
+            justify-self: center;
+            align-items: flex-end;
             grid-column: 1/13;
         }
     
         &__items {
+            justify-content: space-evenly;
+            align-items: center;
             grid-column: 1/13;
         }
     
         &__button {
-            justify-content: center;
+            justify-self: center;
+            align-self: center;
             grid-column: 1/13;
         }
     }
 
-    .main-article {
-        &__text {
-            font-size: 3rem;
-        }
-    }
-
-    .form-layout {
-        &__label {
-            grid-column: 1/9;
-        }
-    
-        &__button {
-            grid-column: 9/13;
+    .u-margin {
+        &--sides {
+            margin: 0em;
         }
     }
 }
-
-@media (max-width:500px) {
-    .grid-layout {
-        grid-gap: 1.5em;
-    }
-
-    .main-article {
-        &__text {
-            font-size: 2rem;
-        }
-    }
-
-    .form-layout {
-        &__label {
-            grid-column: 1/8;
-        }
-    
-        &__button {
-            grid-column: 8/13;
-        }
-    }
-}*/

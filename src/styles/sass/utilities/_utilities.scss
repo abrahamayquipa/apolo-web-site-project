@@ -1,12 +1,19 @@
 @import '/src/styles/sass/base/variables';
 
-.font {
-    &--regular-light-gray {
+.u-nowrap-text {
+    white-space: nowrap;
+}
+
+.u-font {
+    &-regular-white {
+        @extend .u-nowrap-text;
         font-weight: 500;
         color: var(--light-gray-color);
+
     }
 
-    &--regular-dark-gray {
+    &-regular-gray {
+        @extend .u-nowrap-text;
         font-weight: 500;
         color: var(--dark-gray-color);
     }
@@ -23,28 +30,20 @@
         color: white;
     }
 
-    &--little-bold {
+    &--bold-white {
         font-weight: 700;
         color: white
     }
 
-    &--big-bold {
+    &--black {
         font-weight: 900;
         color: white
     }
-
-    &--active {
-        color: white;
-    }
 }
 
-.nowrap-text {
-    white-space: nowrap;
-}
-
-.margin {
+.u-margin {
     &--sides {
-        margin: 0.5em 19em;
+        margin: 0em 16em;
     }
 
     &--main-article {
@@ -70,7 +69,7 @@
     }
 }
 
-.flexbox-vertical {
+.u-flexbox-vertical {
     flex-direction: column;
 }
 

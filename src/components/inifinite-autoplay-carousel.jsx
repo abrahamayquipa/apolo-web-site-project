@@ -5,20 +5,19 @@ import unmsm from '../assets/images/unmsm.webp';
 import upc from '../assets/images/upc.webp';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay } from "swiper/modules";
+import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
+
 import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 function InfiniteAutoplayCarousel() {
 	return (
 		<Swiper
-			slidesPerView={5} 
-			spaceBetween={100} 
-			loop={true}
-			autoplay={{
-				delay: 2000,
-				disableOnInteraction: false,
-			}}
-			modules={[Autoplay]}
+			cssMode={true}
+			navigation={true}
+			pagination={true}
+			modules={[Navigation, Pagination, Mousewheel, Keyboard]}
 			breakpoints={{
 				200: {
 					slidesPerView: 1,
@@ -43,7 +42,8 @@ function InfiniteAutoplayCarousel() {
 					spaceBetween: 40,
 				},
 			}}
-			data-aos="fade-right">
+			data-aos="fade-right"
+			>
 			<SwiperSlide>
 				<img src={upacifico} alt="upacifico" />
 			</SwiperSlide>

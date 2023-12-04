@@ -1,18 +1,18 @@
-.flexbox-layout {
+.l-flexbox {
     display: flex;
 }
 
-.grid-layout {
+.l-grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-gap: 1em;
-    padding: 1em 0;
+    grid-gap: 1em 0em;
 }
 
-.navbar-layout {
-    &__logo { 
-        justify-content: flex-start;
-        align-items: end;
+.l-navbar {
+    &__logo {
+        @extend .l-flexbox;
+        justify-self: start;
+        align-items: flex-end;
         grid-column: 1/3;
     }
 
@@ -23,8 +23,8 @@
     }
 
     &__button {
-        justify-content: flex-end;
-        align-items: center;
+        justify-self: end;
+        align-self: center;
         grid-column: 11/13;
     }
 }
@@ -41,8 +41,6 @@
 }
 
 .form-layout {
-    grid-gap: 0.5em;
-
     &__label {
         grid-column: 1/7;
     }
