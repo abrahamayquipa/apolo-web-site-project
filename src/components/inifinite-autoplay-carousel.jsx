@@ -42,7 +42,6 @@ function InfiniteAutoplayCarousel() {
 					spaceBetween: 40,
 				},
 			}}
-			data-aos="fade-right"
 			>
 			<SwiperSlide>
 				<img src={upacifico} alt="upacifico" />

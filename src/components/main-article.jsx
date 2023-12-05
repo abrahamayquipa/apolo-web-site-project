@@ -11,30 +11,39 @@ function MainArticle() {
     };
     
     return(
-        <article className="">
-            <section className="">
-                <section className="">
-                    <span>
-                        <span className="">Sistema de </span>
-                        <span className="">monitoreo</span>
+        <article className="u-margin--sides l-grid c-main-article">
+            <section className="l-main-article__content u-flexbox-vertical">
+                <span className="u-flexbox-vertical">
+                    <span className="c-main-article__text u-font--black-white u-margin--text-main-article">
+                        Sistema de 
+                    </span> 
+                    <span className="c-main-article__text c-main-article__text--gradient u-font--black-white">
+                        monitoreo
                     </span>
-                    <span className="">para espacios</span>
-                    <span>
-                        <span className="">en </span>
-                        <span className="">universidades</span>
+                    <span className="c-main-article__text u-font--black-white">
+                    para espacios
                     </span>
-                </section>
-                <span className="">Supervisa optimamente el correcto uso de tus espacios de estudio.</span>
-                
-                <form action="" className="">
-                    <input type="text" placeholder="Ingresa tu correo electrónico" className=""/>
-                    <button className="" onClick={handleConfettiClick}>
+                    <span>
+                        <span className="c-main-article__text u-font--black-white u-margin--text-main-article">
+                            en
+                        </span>
+                        <span className="c-main-article__text u-font--black-white c-main-article__text--gradient ">
+                            universidades
+                        </span>
+                    </span>
+                    <span className="u-font-regular-gray">
+                        Supervisa optimamente el correcto uso de tus espacios de estudio.
+                    </span>
+                </span>
+                <form action="" className="l-grid">
+                    <input type="text" placeholder="Ingresa tu correo electrónico" className="l-form__label c-form c-form__label"/>
+                    <button className="l-form__button c-form c-form__button" onClick={handleConfettiClick}>
                         Enviar
                     </button>
                 </form>
             </section>
-            <figure className="">
-                <img src={camera} alt="camera" className=""/>
+            <figure className="l-main-article__image">
+                <img src={camera} alt="camera" className="c-main-article__image"/>
             </figure>
         </article>
     );

@@ -1,6 +1,6 @@
 .swiper {
-    width: 70%;
-    margin: 5em 0; 
+    width: 75%;
+    margin: 4em;
 }
 
 .swiper-slide  {
@@ -11,25 +11,7 @@
     width: 100%;
 }
 
-@media (max-width:1500px) {
-    .swiper {
-        width: 65%;
-    }
-}
-
-@media (max-width:1350px) {
-    .swiper {
-        width: 60%; 
-    }
-}
-
-@media (max-width:1200px) {
-    .swiper {
-        width: 80%; 
-    }
-}
-
-@media (max-width:1000px) {
+@media (max-width:1100px) {
     .swiper {
         width: 90%; 
     }
@@ -38,5 +20,12 @@
 @media (max-width:800px) {
     .swiper {
         width: 80%; 
+    }
+}
+
+@media (max-width:500px) {
+    .swiper {
+        width: 90%; 
+        margin-top: 0em;
     }
 }
