@@ -17,9 +17,12 @@
     }
 
     &__items {
+        @extend .l-flexbox;
         justify-content: space-evenly;
         align-items: center;
         grid-column: 5/9;
+        flex-wrap: wrap;
+        
     }
 
     &__button {
@@ -70,26 +73,27 @@
     }
 }
 
-
-
-
-
-
-
-
-
-
-.section-stadistics-layout {
+.l-section-stadistics {
     &__image {
+        @extend .l-flexbox;
         grid-column: 1/7;
-        justify-self: center;
+        justify-self: flex-start;
+        order: 1;
     }
 
     &__content {
         grid-column: 7/13;
         align-self: center;
+        order: 2;
     }
 }
+
+
+
+
+
+
+
 
 .section-recommendations-layout {
     &__header {
@@ -108,14 +112,16 @@
     }
 }
 
-.footer {
+.l-footer {
     &__text {
         grid-column: 1/13;
         justify-self: center;
     }
 
     &__options {
+        @extend .l-flexbox;
         grid-column: 1/13;
-        justify-self: center;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }

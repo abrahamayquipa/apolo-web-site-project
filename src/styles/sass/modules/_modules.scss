@@ -88,6 +88,7 @@
 }
 
 .c-card {
+  position: relative;
   width: 24%;
   padding: 1em 1.5em;
   background-color: var(--card-color);
@@ -98,12 +99,25 @@
   }
 }
 
+.c-waves {
+  position: absolute;
+  width: 12em;
+  transform: rotateZ(320deg);
+}
 
+.c-stadistics {
+  padding: 7em 0em;
 
-
-.stadistics {
   &__image {
-    height: 18em;
+    max-height: 23em;
+  }
+
+  &__title {
+    margin-bottom: 1em;
+  }
+
+  &__subtitle {
+    font-size: 1.2rem;
   }
 }
 
