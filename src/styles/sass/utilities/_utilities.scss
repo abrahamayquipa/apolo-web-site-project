@@ -4,26 +4,25 @@
     white-space: nowrap;
 }
 
+.u-font-500 {
+    font-weight: 500;
+}
+
 .u-font {
-    &-regular-white {
-        font-weight: 500;
-        color: var(--light-gray-color);
+    &-regular {
+        &--white {
+            @extend .u-font-500;
+            color: var(--light-gray-color);
+        }
 
+        &--gray {
+            @extend .u-font-500;
+            color: var(--dark-gray-color);
+        }
     }
 
-    &-regular-gray {
-        font-weight: 500;
-        color: var(--dark-gray-color);
-    }
-
-    &--regular-big-bold {
+    &--semibold-white {
         font-size: 2.5rem;
-        font-weight: bold;
-        color: white;
-    }
-
-    &--regular-little-bold {
-        font-size: 1rem;
         font-weight: bold;
         color: white;
     }
@@ -52,4 +51,9 @@
 .u-flexbox-vertical {
     display: flex;
     flex-direction: column;
+}
+
+.u-flexbox-horizontal {
+    display: flex;
+    flex-direction: row;
 }

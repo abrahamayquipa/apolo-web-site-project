@@ -6,7 +6,7 @@
     }
 }
 
-@media (max-width:1700px) {
+@media (max-width:1800px) {
     .l-navbar {
         &__items {
             grid-column: 4/10;
@@ -15,7 +15,7 @@
 
     .c-main-article {
         &__image {
-            transform: scale(0.8);
+            transform: scale(0.7);
         }
     }
 }
@@ -25,10 +25,6 @@
         &__text {
             font-size: 4rem;
         }
-
-        &__image {
-            transform: scale(0.5);
-        }
     }
 }
 
@@ -36,6 +32,10 @@
     .c-main-article {
         &__text {
             font-size: 3.7rem;
+        }
+
+        &__image {
+            transform: scale(0.5);
         }
     }
 }
@@ -45,6 +45,10 @@
         &--sides {
             margin: 0em 10em;
         }
+    }
+
+    .c-main-article {
+        padding-top: 9.5em;
     }
 }
 
@@ -61,7 +65,7 @@
     }
 
     .c-main-article {
-        padding-top: 7em;
+        padding-top: 8em;
 
         &__image {
             transform: scale(0.8);
@@ -126,6 +130,16 @@
         &__items {
             overflow: hidden;
         }
+    }
+
+    .l-section-cards {
+        &__cards {
+            gap: 1em;
+        }
+    }
+
+    .c-card {
+        width: 47%;
     }
 }
 

@@ -10,27 +10,27 @@ function Navbar() {
                 </a>
                 <ul className="l-navbar__items l-flexbox">
                     <li>
-                        <a href="#" className="c-navbar__items u-font-regular-white">
+                        <a href="#" className="c-navbar__items u-font-regular--white">
                             Inicio
                         </a> 
                     </li>
                     <li>
-                        <a href="#" className="c-navbar__items u-font-regular-gray u-nowrap-text">
+                        <a href="#" className="c-navbar__items u-font-regular--gray u-nowrap-text">
                             ¿Como funciona?
                         </a>
                     </li>
                     <li>
-                        <a href="#" className="c-navbar__items u-font-regular-gray">
+                        <a href="#" className="c-navbar__items u-font-regular--gray">
                             Metricas
                         </a>
                     </li>
                     <li>
-                        <a href="#" className="c-navbar__items u-font-regular-gray">
+                        <a href="#" className="c-navbar__items u-font-regular--gray">
                             Testimonios
                         </a>
                     </li>
                 </ul>
-                <a href="#" className="l-navbar__button u-font-regular-white u-nowrap-text">
+                <a href="#" className="l-navbar__button u-font-regular--white u-nowrap-text">
                     Cotiza ahora
                 </a>
             </div>

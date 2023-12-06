@@ -27,7 +27,7 @@
 }
 
 .c-main-article {
-  padding-top: 12em;
+  padding-top: 15em;
   
   &__text {
     font-size: 4.5rem;
@@ -83,22 +83,23 @@
   color: white;
 }
 
+.c-section-cards {
+  margin-bottom: 1em;
+}
 
-
-
-
-
-
-.card {
-  width: 17em;
-  padding: 1em;
+.c-card {
+  width: 24%;
+  padding: 1em 1.5em;
   background-color: var(--card-color);
   border-radius: 1em;
 
   &__title {
-    padding: 1em 0;
+    padding: 1em 0em;
   }
 }
+
+
+
 
 .stadistics {
   &__image {

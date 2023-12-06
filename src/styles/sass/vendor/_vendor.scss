@@ -1,6 +1,6 @@
 .swiper {
     width: 75%;
-    margin: 4em;
+    margin: 6em 0em 6em 0em;
 }
 
 .swiper-slide  {
@@ -11,9 +11,48 @@
     width: 100%;
 }
 
+@media (max-width:1750px) {
+    .swiper {
+        width: 70%;
+    }
+}
+
+@media (max-width:1650px) {
+    .swiper {
+        width: 70%;
+    }
+}
+
+@media (max-width:1550px) {
+    .swiper {
+        width: 65%;
+        margin: 2em 0em 4em 0em;
+    }
+}
+
+@media (max-width:1400px) {
+    .swiper {
+        width: 80%;
+        margin: 2em 0em 4em 0em;
+    }
+}
+
+@media (max-width:1350px) {
+    .swiper {
+        width: 78%;
+    }
+}
+
+@media (max-width:1200px) {
+    .swiper {
+        width: 75%;
+        margin: 2em 0em 4em 0em;
+    }
+}
+
 @media (max-width:1100px) {
     .swiper {
-        width: 90%; 
+        width: 90%;
     }
 }
 
@@ -26,6 +65,6 @@
 @media (max-width:500px) {
     .swiper {
         width: 90%; 
-        margin-top: 0em;
+        margin: 0em 0em 3em 0em;
     }
 }

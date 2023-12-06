@@ -31,7 +31,7 @@ function MainArticle() {
                             universidades
                         </span>
                     </span>
-                    <span className="u-font-regular-gray">
+                    <span className="u-font-regular--gray">
                         Supervisa optimamente el correcto uso de tus espacios de estudio.
                     </span>
                 </span>
