@@ -106,10 +106,10 @@
 }
 
 .c-stadistics {
-  padding: 7em 0em;
+  padding: 5em 0em;
 
   &__image {
-    max-height: 23em;
+    height: 20em;
   }
 
   &__title {
@@ -121,8 +121,13 @@
   }
 }
 
-.testimonials {
-  background-color: var(--card-color);
+.c-camera {
+  background-color: var(--card-camera-color);
+  border-radius: 32px;
+
+  &__content {
+    margin: 4em 2em 4em 6em;
+  }
 
   &__image {
     height: 16em;

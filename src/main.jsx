@@ -6,7 +6,7 @@ import MainArticle from './components/main-article.jsx';
 import Carousel from './components/inifinite-autoplay-carousel.jsx';
 import SectionCards from './components/section-cards.jsx';
 import SectionStadistics from './components/section-stadistics.jsx';
-import SectionRecommendations from './components/section-recommendations.jsx';
+import SectionCamera from './components/section-camera.jsx';
 import Footer from './components/footer.jsx';
 
 import '../src/styles/sass/base/_reset.scss';
@@ -21,8 +21,8 @@ root.render(
       <Carousel/>
       <SectionCards/>
       <SectionStadistics/>
-      <SectionRecommendations/>
-      <Footer></Footer>
+      <SectionCamera/>
+      <Footer/>
     </body>
   </>
 );

@@ -43,7 +43,7 @@ function MainArticle() {
                 </form>
             </section>
             <figure className="l-main-article__image">
-                <img src={camera} alt="camera" className="c-main-article__image"/>
+                <img src={camera} alt="camera" className="l-main-article__image c-main-article__image"/>
             </figure>
         </article>
     );

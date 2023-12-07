@@ -4,81 +4,82 @@ import upacifico from '../assets/images/u-pacifico.webp';
 import unmsm from '../assets/images/unmsm.webp';
 import upc from '../assets/images/upc.webp';
 
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
+import { useEffect } from 'react';
+import { register } from 'swiper/element/bundle';
+register();
 
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 function InfiniteAutoplayCarousel() {
+	useEffect(() => {
+		const swiper = document.querySelector('swiper-container');
+		swiper.breakpoints = {
+			200: {
+				slidesPerView: 1,
+				spaceBetween: 20,
+				loop: false,
+			},
+			350: {
+				slidesPerView: 2,
+				spaceBetween: 20,
+				loop: false,
+			},
+			600: {
+				slidesPerView: 3,
+				spaceBetween: 40,
+			},
+			1000: {
+				slidesPerView: 4,
+				spaceBetween: 40,
+			},
+			1500: {
+				slidesPerView: 5,
+				spaceBetween: 40,
+			},
+		}
+		swiper.initialize();
+	}, []);
 	return (
-		<Swiper
-			cssMode={true}
-			navigation={true}
-			pagination={true}
-			modules={[Navigation, Pagination, Mousewheel, Keyboard]}
-			breakpoints={{
-				200: {
-					slidesPerView: 1,
-					spaceBetween: 20,
-					loop: false,
-				},
-				350: {
-					slidesPerView: 2,
-					spaceBetween: 20,
-					loop: false,
-				},
-				600: {
-					slidesPerView: 3,
-					spaceBetween: 40,
-				},
-				1000: {
-					slidesPerView: 4,
-					spaceBetween: 40,
-				},
-				1500: {
-					slidesPerView: 5,
-					spaceBetween: 40,
-				},
-			}}
-			>
-			<SwiperSlide>
+		<swiper-container
+		navigation="true"
+		pagination="true"
+		pagination-clickable="true"
+		loop="true"
+		>
+			<swiper-slide>
 				<img src={upacifico} alt="upacifico" />
-			</SwiperSlide>
-			<SwiperSlide>
+			</swiper-slide>
+			<swiper-slide>
 				<img src={upc} alt="upc" />
-			</SwiperSlide>
-			<SwiperSlide>
+			</swiper-slide>
+			<swiper-slide>
 				<img src={unmsm} alt="unmsm" />
-			</SwiperSlide>
-			<SwiperSlide>
+			</swiper-slide>
+			<swiper-slide>
 				<img src={ulima} alt="ulima" />
-			</SwiperSlide>
-			<SwiperSlide>
+			</swiper-slide>
+			<swiper-slide>
 				<img src={pucp} alt="pucp" />
-			</SwiperSlide>
-			<SwiperSlide>
+			</swiper-slide>
+			<swiper-slide>
 				<img src={upacifico} alt="upacifico" />
-			</SwiperSlide>
-			<SwiperSlide>
+			</swiper-slide>
+			<swiper-slide>
 				<img src={upc} alt="upc" />
-			</SwiperSlide>
-			<SwiperSlide>
+			</swiper-slide>
+			<swiper-slide>
 				<img src={unmsm} alt="unmsm" />
-			</SwiperSlide>
-			<SwiperSlide>
+			</swiper-slide>
+			<swiper-slide>
 				<img src={ulima} alt="ulima" />
-			</SwiperSlide>
-			<SwiperSlide>
+			</swiper-slide>
+			<swiper-slide>
 				<img src={pucp} alt="pucp" />
-			</SwiperSlide>
-		</Swiper>
+			</swiper-slide>
+		</swiper-container>
 	);
 }
-
-AOS.init({
-    duration: 2000,
-})
 
 export default InfiniteAutoplayCarousel;
