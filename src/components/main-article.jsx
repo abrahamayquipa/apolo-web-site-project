@@ -11,8 +11,8 @@ function MainArticle() {
     };
     
     return(
-        <article className="u-margin--sides l-grid c-main-article">
-            <section className="l-main-article__content u-flexbox-vertical">
+        <article id="main-article" className="u-margin--sides l-grid c-main-article">
+            <section className="l-main-article__content u-flexbox-vertical" data-aos="fade-right">
                 <span className="u-flexbox-vertical">
                     <span className="c-main-article__text u-font--black-white u-margin--text-main-article">
                         Sistema de 
@@ -42,7 +42,7 @@ function MainArticle() {
                     </button>
                 </form>
             </section>
-            <figure className="l-main-article__image">
+            <figure className="l-main-article__image" data-aos="fade-left">
                 <img src={camera} alt="camera" className="l-main-article__image c-main-article__image"/>
             </figure>
         </article>

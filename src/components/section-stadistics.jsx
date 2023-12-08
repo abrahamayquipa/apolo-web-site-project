@@ -2,9 +2,9 @@ import stadistics from '../assets/images/stadistics.webp'
 
 function SectionStadistics() {
     return(
-        <article id="" className="u-margin--sides l-grid c-stadistics">
-            <img src={stadistics} alt="stadisctics" className="l-section-stadistics__image c-stadistics__image"/>
-            <section className="l-section-stadistics__content">
+        <article id="stadistics" className="u-margin--sides l-grid c-stadistics">
+            <img src={stadistics} alt="stadisctics" className="l-section-stadistics__image c-stadistics__image" data-aos="fade-right"/>
+            <section className="l-section-stadistics__content" data-aos="fade-left">
                 <span className="u-flexbox-vertical c-stadistics__title">
                     <span className="u-font--semibold-white">Obtén métricas del nivel</span>
                     <span className="u-font--semibold-white">ruido originado</span>

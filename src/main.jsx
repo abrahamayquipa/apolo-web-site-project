@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 
 import Navbar from './components/navbar.jsx'
 import MainArticle from './components/main-article.jsx';
@@ -11,18 +11,16 @@ import Footer from './components/footer.jsx';
 
 import '../src/styles/sass/base/_reset.scss';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = createRoot(document.getElementById('root'));
 
 root.render(
   <>
-    <body>
-      <Navbar/>
-      <MainArticle/>
-      <Carousel/>
-      <SectionCards/>
-      <SectionStadistics/>
-      <SectionCamera/>
-      <Footer/>
-    </body>
+    <Navbar/>
+    <MainArticle/>
+    <Carousel/>
+    <SectionCards/>
+    <SectionStadistics/>
+    <SectionCamera/>
+    <Footer/>
   </>
 );

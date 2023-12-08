@@ -2,7 +2,7 @@ import camera from '../assets/images/screen-tablet.webp'
 
 function SectionCamera() {
     return(
-        <article id="" className="u-margin--sides l-grid c-camera">
+        <article id="banner" className="u-margin--sides l-grid c-camera" data-aos="fade-right">
             <section className="l-section-cameras__content c-camera__content">
                 <section className="u-flexbox-vertical u-margin--card-camera">
                     <span className="u-font--semibold-white">

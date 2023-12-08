@@ -10,22 +10,22 @@ function Navbar() {
                 </a>
                 <ul className="l-navbar__items l-flexbox">
                     <li>
-                        <a href="#" className="c-navbar__items u-font-regular--white">
+                        <a href="#main-article" className="c-navbar__items u-font-regular--white">
                             Inicio
                         </a> 
                     </li>
                     <li>
-                        <a href="#" className="c-navbar__items u-font-regular--gray u-nowrap-text">
+                        <a href="#cards" className="c-navbar__items u-font-regular--gray u-nowrap-text">
                             ¿Como funciona?
                         </a>
                     </li>
                     <li>
-                        <a href="#" className="c-navbar__items u-font-regular--gray">
+                        <a href="#stadistics" className="c-navbar__items u-font-regular--gray">
                             Metricas
                         </a>
                     </li>
                     <li>
-                        <a href="#" className="c-navbar__items u-font-regular--gray">
+                        <a href="#banner" className="c-navbar__items u-font-regular--gray">
                             Testimonios
                         </a>
                     </li>
