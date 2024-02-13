@@ -1,5 +1,5 @@
 <br>
-<h1 align="center">APOLO website project</h1>
+<h1 align="center">Apolo website project</h1>
 <div align="center">
     <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/abrahamayquipa/apolo-web-site-project">
     <img alt="GitHub forks" src="https://img.shields.io/github/forks/abrahamayquipa/apolo-web-site-project">
